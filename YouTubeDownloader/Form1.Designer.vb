@@ -44,7 +44,7 @@ Partial Class Form1
         ' 
         txtUrl.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         txtUrl.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(192))
-        txtUrl.ForeColor = Color.White
+        txtUrl.ForeColor = Color.Black
         txtUrl.Location = New Point(12, 42)
         txtUrl.Name = "txtUrl"
         txtUrl.Size = New Size(429, 23)
