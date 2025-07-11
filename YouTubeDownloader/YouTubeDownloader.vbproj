@@ -6,11 +6,16 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>22222lionface_98747.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Resources\ffmpeg.exe" />
     <None Remove="Resources\yt-dlp.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="22222lionface_98747.ico" />
   </ItemGroup>
 
   <ItemGroup>
